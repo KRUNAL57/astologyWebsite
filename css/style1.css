@@ -2,6 +2,15 @@
   font-family: "Aescudos";
     src: URL('../fonts/Aescudos.ttf') format('truetype');
 }
+.row {
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+}
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
 body{
 	background-image: url("../images/background.jpg");
 }
@@ -64,11 +73,83 @@ form{
 	border-radius: 0 !important;
 }
 #bottom-container{
-background-image: url("../images/galaxy_background.jpg");	
+   background-image: url("../images/galaxy_background.jpg");	
+   font-family: "Montserrat Alternates";
+   text-align: center;
 }
-#bottom-container h2{
-    color: #fff;
-    font-size: 80px;
+#brown-container{
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: rgba(80, 40, 00, .4);
+	color: #fff;
+	
+}
+#bottom-header{
+    font-size: 75px;
     font-family: "Aescudos";
-    text-align: center;
+}
+
+#bottom-subheader{
+	margin-top: 30px;
+    font-size: 55px;
+}
+#brown-container p{
+	text-align: justify;
+}
+#brown-container a{
+	border-radius: 0;
+	text-decoration: none;
+}
+.btn-warning{
+	background-color: #ff8013 !important;
+}
+#expert-row{
+	margin-top: 10px;
+}
+.circle{
+	height: 100px;
+	width: 95px;
+	display: inline-block;
+	border-radius: 50% !important;
+	border: solid #ff8013;
+}
+#left-margin{
+	margin-left: 20px;
+}
+#left-margin1{
+	margin-left: 40px;
+}
+#left-margin2{
+	margin-left: 60px;
+}
+#left-margin3{
+	margin-left: 75px;
+}
+#expert-para{
+	font-weight: bold;
+	color:#fff;
+}
+#in-ex-para{
+	font-weight: normal;
+	color:#ff8013 !important;
+}
+#expert-para a{
+	font-weight: normal;
+	color:#fff !important;
+}
+#contact-div{
+	margin-top: 10px;
+	background: rgba(80, 40, 00, .85);
+	color:#fff;
+	font-family: "Montserrat Alternates";
+}
+#contact-div ul{
+	list-style-type: none; 
+}
+.align{
+	text-align: center;
+}
+.bottom-social-icons{
+	color:#fff !important;
 }
