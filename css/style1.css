@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Aescudos";
+    src: URL('../fonts/Aescudos.ttf') format('truetype');
+}
+body{
+	background-image: url("../images/background.jpg");
+}
+.first-header{
+	color:#fff;
+	background-color: #ff8013;
+	font:"Montserrat Alternates";
+	margin: 0px;
+	padding: 1px;
+	font-size: 20px;
+}
+#second-nav{
+	background-color: #fff;
+	border: 0px;
+}
+#brand {
+    width:70% !important;
+    height:70% !important;
+}
+
+#header-elements {
+	background-color: #fff;
+	font-family: "Montserrat Alternates";
+    margin: 0px;
+    font-size: 20px;
+    color:#ff8013 !important;
+}
+#astro-header{
+    color: #ff8013;
+    font-size: 80px;
+    font-family: "Aescudos";
+    text-align: center;
+}
+#first-para-after-header{
+	text-align: justify;
+	color: #fff;
+}
+#second-para-after-header{
+	font:"Montserrat Alternates";
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+}
+.text-center{
+	text-align: center;
+}
+.thumb-effects{
+	text-align: center;
+	font-weight: bold;
+	color: #ff8013;
+}
+#para-form{
+	text-align: justify;
+}
+form{
+	font:"Montserrat Alternates";
+}
+.form-control{
+	border-radius: 0 !important;
+}
+#bottom-container{
+background-image: url("../images/galaxy_background.jpg");	
+}
+#bottom-container h2{
+    color: #fff;
+    font-size: 80px;
+    font-family: "Aescudos";
+    text-align: center;
+}
